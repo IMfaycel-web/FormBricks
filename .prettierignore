@@ -28,4 +28,4 @@ charts/**/templates/
 # emits none. Ignoring is per-file, not per-region, so the whole file is out —
 # otherwise every regeneration of the block turns format:check red on whichever
 # unrelated PR happens to carry it.
-AGENTS.md
+AGENTS.
