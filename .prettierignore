@@ -27,5 +27,4 @@ charts/**/templates/
 # block, and Prettier wants a blank line after that marker where the installer
 # emits none. Ignoring is per-file, not per-region, so the whole file is out —
 # otherwise every regeneration of the block turns format:check red on whichever
-# unrelated PR happens to carry it.
-AG
+# unrelated PR happens to carry i
