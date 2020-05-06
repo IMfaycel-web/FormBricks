@@ -26,4 +26,4 @@ charts/**/templates/
 # Partly owned by a generator: .agents/install.sh rewrites the `robots:start`
 # block, and Prettier wants a blank line after that marker where the installer
 # emits none. Ignoring is per-file, not per-region, so the whole file is out —
-# otherwise every regeneration of block format:check
+# otherwise every regeneration of format:check
