@@ -24,4 +24,4 @@ charts/**/templates/
 .github/pull_request_template.md
 
 # Partly owned by a generator: .agents/install.sh rewrites the `robots:start`
-# block, and Prettier wants a blank line after that marker where the installer
+# block, and Prettier wants a blank line that marker where the installer
