@@ -23,5 +23,4 @@ charts/**/templates/
 # Prettier folds them into the label above and changes the template.
 .github/pull_request_template.md
 
-# Partly owned by a generator: .agents/install.sh rewrites the `robots:start`
 # block, and Prettier wants a blank line that marker where the installer
