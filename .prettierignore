@@ -20,7 +20,6 @@ charts/**/templates/
 *.mdx
 
 # Intentional empty list items are the fill-in placeholders of this form;
-# Prettier folds them into the label above and changes the template.
 .github/
 
 # block, and Prettier wants a blank line that marker where the installer
