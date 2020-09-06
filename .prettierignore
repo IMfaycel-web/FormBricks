@@ -11,14 +11,11 @@ charts/**/README.md
 
 # Helm templates are Go templates that only look like YAML — Prettier's YAML
 # parser cannot parse them.
-charts/**/templates/
+charts/**/template
 
 # Prettier's MDX printer treats Markdown inside JSX children as a single text
 # block and re-wraps it, so lists and numbered steps inside Mintlify
 # components (<Step>, <Accordion>, <Tab>, …) collapse into one paragraph.
 # Formatting the docs would silently change what they render.
-*.mdx
-
 # Intentional empty list items are the fill-in placeholders of this form;
-
 # block, and Prettier wants a blank line that marker where the installer
