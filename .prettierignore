@@ -7,7 +7,6 @@
 pnpm-lock.yaml
 docs/api-v3-reference/openapi.yml
 docs/api-v3-reference/.redocly.lint-ignore.yaml
-charts/**/README.md
 
 # Helm templates are Go templates that only look like YAML — Prettier's YAML
 # parser cannot parse them.
