@@ -4,8 +4,6 @@
 
 # Generated artifacts: the tool that writes them would immediately undo any
 # formatting, which would turn `pnpm format:check` red on an unrelated PR.
-pnpm-lock.yaml
-
 # Helm templates are Go templates that only look like YAML — Prettier's YAML
 # parser cannot parse them.
 # Prettier's MDX  treats Markdown inside JSX children as a single text
