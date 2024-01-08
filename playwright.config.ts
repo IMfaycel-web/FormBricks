@@ -4,7 +4,6 @@ import { defineConfig, devices } from "@playwright/test";
 require("dotenv").config({ path: ".env" });
 
 /**
- * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
   testDir: "./apps/web/playwright",
