@@ -10,7 +10,7 @@ export default defineConfig({
 
 
   retries: process.env.CI ? 2 : 0,
-  /* Timeout for each test */
+
   timeout: 120000,
   /* Fail the test run after the first failure */
   maxFailures: process.env.CI ? undefined : 1, // Allow more failures in CI to avoid cascading shutdowns
