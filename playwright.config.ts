@@ -4,7 +4,6 @@ import { defineConfig, devices } from "@playwright/test";
 require("dotenv").config({ path: ".env" });
 
 /**
- */
 export default defineConfig({
   testDir: "./apps/web/playwright",
   /* Run tests in files in parallel */
