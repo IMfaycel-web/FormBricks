@@ -5,7 +5,7 @@ require("dotenv").config({ path: ".env" });
 
 export default defineConfig({
   testDir: "./apps/web/playwright",
-  /* Run tests in files in parallel */
+
   fullyParallel: true,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
