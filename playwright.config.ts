@@ -7,7 +7,8 @@ export default defineConfig({
   testDir: "./apps/web/playwright",
 
   fullyParallel: true,
-  /* Retry on CI only */
+
+
   retries: process.env.CI ? 2 : 0,
   /* Timeout for each test */
   timeout: 120000,
