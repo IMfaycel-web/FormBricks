@@ -12,7 +12,8 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   timeout: 120000,
-  /* Fail the test run after the first failure */
+
+
   maxFailures: process.env.CI ? undefined : 1, // Allow more failures in CI to avoid cascading shutdowns
   /* Pin worker count on CI. The GitHub runner has ~4 vCPUs; Playwright's default
      is only ~50% of cores (≈2 workers). Running 4 in parallel roughly halves the
