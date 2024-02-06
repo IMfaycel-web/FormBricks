@@ -17,8 +17,8 @@ export default defineConfig({
   maxFailures: process.env.CI ? undefined : 1, // Allow more failures in CI to avoid cascading shutdowns
 
   is only ~50% of cores (≈2 workers). Running 4 in parallel roughly halves the
-     test-execution portion of the run. Tune down if CPU contention with the app
-     server starts causing timeout-driven flakiness. */
+
+
   workers: process.env.CI ? 4 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [["html", { outputFolder: "playwright-report", open: "never" }]],
