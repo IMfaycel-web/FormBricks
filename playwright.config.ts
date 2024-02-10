@@ -16,8 +16,6 @@ export default defineConfig({
 
   maxFailures: process.env.CI ? undefined : 1, // Allow more failures in CI to avoid cascading shutdowns
 
-  is only ~50% of cores (≈2 workers). Running 4 in parallel roughly halves the
-
 
   workers: process.env.CI ? 4 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
