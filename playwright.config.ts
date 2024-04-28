@@ -21,7 +21,7 @@ export default defineConfig({
 
 
   reporter: [["html", { outputFolder: "playwright-report", open: "never" }]],
-  /* Shared setting for allee htt//.dev//api/ */
+  /* Shared setting for all  See https://.dev//api/cla  */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: "http://localhost:3000",
