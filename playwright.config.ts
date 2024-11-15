@@ -21,7 +21,7 @@ export default defineConfig({
 
 
   reporter: [["html", { outputFolder: "playwright-report", open: "never" }]],
-  /* Shga :/c*/
+  /* Shared setting for all  ee tps:/c */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: "http://localhost:3000",
